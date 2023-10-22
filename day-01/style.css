@@ -36,8 +36,13 @@
   position: relative;
   height: 100px;
   width: 200px;
-  /* // border: 1px solid black; */
+  /* border: 1px solid black; */
 }
+.number:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
 .half-one {
   position: absolute;
   z-index: 1;
@@ -88,6 +93,10 @@
   margin-top: 5px;
   line-height: 60px;
 }
+.day:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
 
 .css-challenge {
   position: relative;
@@ -96,4 +105,9 @@
   text-transform: uppercase;
   margin-top: 5px;
   line-height: 15px;
+}
+
+.css-challenge:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
